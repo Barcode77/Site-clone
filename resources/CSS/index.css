@@ -51,6 +51,15 @@ a:hover {
     color: #2e9ec7;
   }
 
+.breadcrumbs li{
+    display: inline;
+}
+.breadcrumbs li+li::before{
+    content: ">";
+}
+.breadcrumbs a{
+    text-decoration: none;
+}
 /*Banner section>*/
 .banner img{
     height: 700px;
